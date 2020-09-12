@@ -33,7 +33,7 @@ After install Anaconda:
      
      For other pytorch version, you can manually open `torch/nn/functional.py` and find the line with `torch.batch_norm` and replace the `torch.backends.cudnn.enabled` with `False`. We observed slight worse training results without doing so. 
      
-2. Install [COCOAPI](https://github.com/cocodataset/cocoapi):
+2. Install [COCmOAPI](https://github.com/cocodataset/cocoapi):
 
     ~~~
     # COCOAPI=/path/to/clone/cocoapi
